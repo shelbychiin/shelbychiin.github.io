@@ -20,3 +20,7 @@ img{
   margin:auto;
   border: 5px solid pink;
 }
+img.center{
+  display: block;
+  margin: auto;
+}
