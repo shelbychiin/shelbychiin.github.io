@@ -3,6 +3,7 @@ ul{
   font-style: normal;
   font-size: 30px;
   list-style: none;
+  letter-spacing: 9px;
 }
 a{
   text-decoration:none;;
@@ -14,5 +15,5 @@ footer{
   fron-size: 10px;
 }
 img{
-  border: 10px pink solid;
+  border: 5px solid pink;
 }
