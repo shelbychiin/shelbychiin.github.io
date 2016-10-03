@@ -1,5 +1,10 @@
 ul{
   font-family: fantasy;
   font-style: normal;
+  font-size: 30px;
   list-style: none;
+}
+a{
+  text-decoration: overline;
+  color: grey;
 }
