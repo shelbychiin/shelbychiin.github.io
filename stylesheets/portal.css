@@ -13,3 +13,6 @@ footer{
   font-family: cursive;
   fron-size: 10px;
 }
+img{
+  border: 10px pink solid;
+}
