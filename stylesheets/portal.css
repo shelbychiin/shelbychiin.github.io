@@ -1,10 +1,11 @@
 ul{
-  text-shadow: 5px 5px #ff0000;
+  text-shadow: 2px 2px pink;
   font-family: impact;
   font-style: normal;
   font-size: 30px;
   list-style: none;
   letter-spacing: 9px;
+  text-align: center;
 }
 a{
   text-decoration:none;;
@@ -16,5 +17,6 @@ footer{
   fron-size: 10px;
 }
 img{
+  margin:auto;
   border: 5px solid pink;
 }
