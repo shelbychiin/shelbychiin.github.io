@@ -5,7 +5,6 @@ ul{
   font-size: 30px;
   list-style: none;
   letter-spacing: 9px;
-  text-align: center;
 }
 a{
   text-decoration:none;;
@@ -17,10 +16,5 @@ footer{
   fron-size: 10px;
 }
 img{
-  margin:auto;
   border: 5px solid pink;
-}
-img.center{
-  display: block;
-  margin: auto;
 }
