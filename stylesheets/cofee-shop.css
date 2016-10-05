@@ -1,0 +1,48 @@
+body{
+  font-family: Arial, sans-serif;
+  color: #dfdfdf;
+  background-color: #faf1e1;
+}
+
+section{
+  width: 960px;
+  margin:auto;
+  background-color: #2d251f;
+}
+
+article{
+  float: right;
+  width:590px;
+  padding:25px;
+}
+
+footer{
+  clear:both;
+  background-color: #383f43;
+  padding:25px;
+}
+
+h2{
+  font-size: 32px;
+  color:#d06038;
+  margin-bottom: 16px;
+}
+
+p{
+  margin-bottom:16px;
+}
+
+nav ul{
+  list-style-type: none;
+  margin-bottom: 60px;
+}
+
+nav ul li a{
+  display: block;
+
+  background-color: #d06038;
+}
+
+header img{
+  display:block;
+}
