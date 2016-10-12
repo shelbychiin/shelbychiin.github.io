@@ -1,0 +1,83 @@
+body{
+  font-family: Arial, sans-serif;
+  color: #grey;
+  background-color: #faf1e1;
+  background-image: url(http://img08.deviantart.net/9330/i/2016/015/b/9/neko_atsume__rare_cats__by_meganeneko98-d9o3rjy.png);
+}
+
+section{
+  width: 960px;
+  margin: auto;
+  background-image: url(http://i.imgur.com/QSshw5o.png);
+  background-repeat: no-repeat;
+  background-position: center right;
+  background-color: #a0e5ff;
+}
+
+nav{
+  float: left;
+  width: 320px;
+}
+article{
+  float: right;
+  width: 590px;
+  padding: 25px;
+  font-size: 16px;
+}
+h1{
+  margin:0px;
+}
+
+footer{
+  clear: both;
+  background-color: orange;
+  padding: 25px;
+  color: teal;
+}
+
+h2{
+  font-size: 32px;
+  color:#d06038;
+  margin-bottom: 16px;
+  margin-top: 0px;
+}
+
+p{
+  margin-bottom: 16px;
+}
+
+nav ul{
+  list-style-type: none;
+  margin-bottom: 60px;
+  padding-left: 0px;
+  margin-top:0px;
+
+}
+
+nav ul li a{
+  display: block;
+
+  background-color: #CC2C44;
+  color: #FCD9A3;
+
+  font-weight: bold;
+  font-size:20px;
+
+  line-height: 60px;
+  height: 60px;
+
+  text-transform: uppercase;
+  text-decoration: none;
+
+  padding-left: 25px;
+  border-bottom: 5px solid #ead6be;
+
+}
+
+nav ul li a:hover{
+  background: #66CCCC;
+}
+
+header img{
+  display: block;
+}
