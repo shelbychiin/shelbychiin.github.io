@@ -11,7 +11,7 @@ section{
   background-image: url(http://i.imgur.com/QSshw5o.png);
   background-repeat: no-repeat;
   background-position: center right;
-  background-color: #a0e5ff;
+
 }
 
 nav{
@@ -37,7 +37,7 @@ footer{
 
 h2{
   font-size: 32px;
-  color:#d06038;
+  color: #66CCCC;
   margin-bottom: 16px;
   margin-top: 0px;
 }
