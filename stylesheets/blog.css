@@ -128,3 +128,8 @@ background: #88ba1c;
 </style>
 </head>
 <body>
+
+
+body, a:hover {
+  cursor: url(http://cur.cursors-4u.net/food/foo-7/foo613.cur), progress !important;
+}
