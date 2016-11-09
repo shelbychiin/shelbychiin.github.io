@@ -161,6 +161,10 @@ h3{
   text-shadow: 0 0 20px #00c5ff;
   margin-top: 30px;
 }
+h4{
+  font-style: italic;
+  text-align: center;
+}
 
 nav {
   width: 1024px;
