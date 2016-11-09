@@ -34,7 +34,7 @@ footer{
 }
 
 h1{
-  font-size: 50px;
+  font-size: 30px;
   color: maroon;
   margin-bottom: 16px;
   margin-top: 0px;
@@ -43,7 +43,11 @@ h1{
 }
 
 p{
-  margin-bottom: 16px;
+  margin: auto 15px 16px 30px;
+}
+strong{
+  margin-left: 30px;
+  font-size: 20px;
 }
 
 nav ul{
@@ -91,17 +95,14 @@ header img{
   background-repeat: no-repeat;
   background-position: center right;
 }
-h1{
-  font-size: 20px;
-  color:
-}
+
 .myBox {
 border: none;
 font-size: 15px;
 font-family: 'Montserrat', sans-serif;
 width: 800px;
 height: 190px;
-margin: -200px 500px auto -270px;
+margin: -200px 700px auto -300px;
 overflow: scroll;
 background-color: rgba(255,255,255,0.3);
 }
@@ -128,8 +129,3 @@ background: #88ba1c;
 </style>
 </head>
 <body>
-
-
-body, a:hover {
-  cursor: url(http://cur.cursors-4u.net/food/foo-7/foo613.cur), progress !important;
-}
