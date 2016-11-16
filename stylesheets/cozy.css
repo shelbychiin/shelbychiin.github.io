@@ -1,0 +1,311 @@
+/*START CSS RESET*/
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+
+/* HTML5 display-role reset for older browsers */
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+  background-color: lightblue;
+  font-family: verdana;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+blockquote,
+q {
+  quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+/*end css reset*/
+
+/*structural style*/
+.page{
+  background-image: url(http://i.imgur.com/LElnLiV.jpg);
+  position: relative;
+  margin: auto;
+  width: 100%;
+  min-width: 375px;
+  min-height: 930px;
+  max-height: 900px;
+  background-size: cover;
+  color: white;
+}
+
+/*start mobile*/
+
+header{
+  display:table;
+
+}
+
+.logo{
+  width: 34%;
+  display: table-cell;
+  margin: auto;
+}
+
+main{
+  width: 90%;
+  height: 90%;
+  margin-left: 10%;
+}
+
+article{
+  width: 80%;
+}
+
+h1{
+  font-family: Corben, sans-serif;;
+  font-size: 2.375em;
+  font-style: normal;
+  margin-bottom: 10%;
+  color:white;
+  border-bottom: 3px solid white;
+  padding-bottom: 50px;
+}
+
+
+p{
+  margin-bottom: 16px;
+  line-height: 20px;
+  color: white;
+  font-size: 1em;
+  font-family: Montserrat, sans-serif;
+  margin-top: auto;
+}
+
+.nav-mobile{
+  width: 11%;
+  position: absolute;
+  left: 10%;
+  top: 5%;
+}
+
+nav{
+  display:table-cell;
+  vertical-align: middle;
+  padding: 2% 5% 0 0;
+}
+
+nav ul{
+  display: none
+}
+
+/*desktop*/
+@media (min-width: 724px){
+  header{
+    width: 100%;
+    margin:0;
+    padding: 2% 0 0 0;
+  }
+
+  .nav-mobile {
+    display: none;
+  }
+}
+
+
+@media (min-width: 724px){
+  .logo{
+    width: 200px;
+    vertical-align: middle;
+  }
+}
+
+@media (min-width: 724px){
+  main{
+    width: 70%;
+    height: 52px;
+  }
+}
+
+@media (min-width: 724px){
+  article{
+    width: 80%;
+    font-size: 1.125 em;
+    padding-left: 30%;
+  }
+}
+
+@media (min-width: 724px){
+  h1{
+    font-size: 4em;
+  }
+}
+
+@media (min-width: 724px){
+  nav ul{
+    display: block;
+    width: 100%;
+
+        padding: 3%;
+        text-align: center;
+  }
+}
+
+@media (min-width: 724px){
+  nav li {
+    display: inline-block;
+    padding: 5%;
+    text-align: center;
+  }
+}
+
+@media (min-width: 724px){
+  nav ul li a{
+    color: white;
+    font-size:18px;
+    font-family: Montserrat;
+    text-decoration: none;
+    display: block;
+    width: 100%;
+    white-space: nowrap;
+  }
+}
+
+@media (min-width: 724px){
+
+  nav ul li a:hover{
+    background: lightblue;
+    color:black;
+  }
+}
+
+@media (min-width: 724px){
+
+  p{
+    margin-top: 5%;
+  }
+}
+
+@media (min-width: 724px){
+
+  .page{
+    height: 1000px;
+    background-image: url(http://i.imgur.com/LElnLiV.jpg);
+  }
+}
+
+@media (min-width: 724px){
+
+  img{
+width: 50%;
+  }
+}
