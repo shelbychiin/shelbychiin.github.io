@@ -1,13 +1,9 @@
-<<<<<<< HEAD
 /* ~~~START CSS RESET~~~ */
 
 /* http://meyerweb.com/eric/tools/css/reset/
    v2.0 | 20110126
    License: none (public domain)
 */
-=======
-/*START CSS RESET*/
->>>>>>> origin/master
 html,
 body,
 div,
@@ -143,19 +139,12 @@ table {
   border-spacing: 0;
 }
 /*end css reset*/
-
 /* ~~~ START STRUCTURAL STYLES ~~~ */
 body{
   background-image: url(http://imgview.info/download/20150423/simple-blue-backgrounds-1920x1200.jpg);
 }
 /* ~~~ end structural styles ~~~ */
 /* ~~~ START TEXT ~~~ */
-=======
-
-body{
-  background-image: url(http://imgview.info/download/20150423/simple-blue-backgrounds-1920x1200.jpg);
-}
-
 h1 {
   margin: 0 36px;
 }
@@ -199,8 +188,6 @@ p {
 /* ~~~ end Text ~~~ */
 
 /* ~~~ START NAV STYLES ~~~ */
-=======
-
 nav {
   width: 1024px;
   display: table;
@@ -236,11 +223,8 @@ nav li:hover {
 nav li:visited {
   color: lightgrey;
 }
-
 /* ~~~ end nav styles ~~~ */
 /* ---Start image styles --*/
-
-
 .banner{
   width: 1024px;
   height: 123px;
@@ -261,28 +245,9 @@ nav li:visited {
     opacity: .5;
     filter: alpha(opacity=50);
 }
-
 /* ---end image styles --*/
 
 /* ---Start Scroll box --*/
-=======
-
-h4{
-  font-size: 15px;
-  font-family: helvetica;
-}
-h5{
-  font-size: 15px;
-  font-family: helvetica;
-  text-align: center;
-  font-style: italic;
-}
-
-p {
-  margin: auto 30px 36px 30px;
-  line-height: 25px;
-}
-
 .myBox {
 border: 5px solid white;
 border-radius: 10px;
@@ -319,12 +284,9 @@ border-radius: 10px;
 ::-webkit-scrollbar-thumb:hover {
 background: #00c5ff;
 }
-
 /* -- end Scroll box --*/
 
 /* -- Start Footer Styles --*/
-
-
 footer {
   width: 953px;
   background-color:rgba(0,0,0,0.5);
@@ -335,5 +297,4 @@ footer {
   font-size: 20px;
   align-items: center;
 }
-
 /* -- End Footer Styles --*/
